@@ -92,7 +92,7 @@ Rules:
 - Whitespace around tokens is ignored: `09:00 - 10:15` is valid.
 - At most 20 intervals per cell.
 - `start` must be strictly before `end`; the end is exclusive.
-- Overnight intervals (end on the next day) are not supported in the MVP.
+- Overnight intervals (end on the next day) are not supported in the MVP. An interval that appears to cross midnight, such as `22:00-02:00`, is reported as `E-TIME-003`; other reversed intervals are reported as `E-TIME-002`.
 - Busy periods repeat weekly.
 - Intervals may lie outside operating hours; they are clipped for scheduling and reported with `W-TIME-002` when part of the interval is removed.
 - Overlapping or adjacent intervals are merged after parsing.
@@ -143,7 +143,7 @@ Each diagnostic contains: record number (header = record 1), column name, code, 
 | `W-SCHEMA-002` | warning | No weekday columns found. |
 | `W-CSV-001` | warning | UTF-8 BOM removed. |
 
-Validation also runs the feasibility pre-checks in `docs/SCHEDULING_RULES.md` §5. Those checks produce `E-FEAS-*` diagnostics when the workplace configuration and the imported availability cannot satisfy the mandatory rules.
+Validation also runs the feasibility pre-checks in `docs/SCHEDULING_RULES.md` §5. Those checks produce `E-FEAS-*` and `W-FEAS-*` diagnostics when the workplace configuration and the imported availability cannot satisfy the mandatory rules.
 
 ## 6. Normalization pipeline
 
