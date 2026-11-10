@@ -1,0 +1,13 @@
+Name,Desired Hours,Tags,Monday Busy,Tuesday Busy,Wednesday Busy,Thursday Busy,Friday Busy,Saturday Busy,Sunday Busy
+An,8,mentor,09:00-10:00,,14:00-16:00,,,,
+Binh,10,new-hire,,08:00-10:00,,13:00-15:00,,,
+Chi,8,first-aid,12:00-13:30,,,09:00-11:00,,,
+Dung,10,,,08:00-09:30,16:00-18:00,,,,
+Giang,8,mentor,,14:00-16:00,,,13:00-15:00,,
+Hoa,10,,15:00-17:00,,10:00-12:00,,,,
+Khanh,8,new-hire,,,,08:00-10:00,15:00-17:00,,
+Lan,10,first-aid,,11:00-12:30,16:00-18:00,,,,
+Minh,8,mentor,08:00-09:00,,,11:00-13:00,,,
+Nam,10,,,16:00-18:00,,,10:00-12:00,,
+Oanh,8,,,12:00-14:00,14:00-16:00,,,,
+Phuc,8,,,,,08:00-09:30,,,

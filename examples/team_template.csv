@@ -1,0 +1,4 @@
+Name,Desired Hours,Tags,Monday Busy,Tuesday Busy,Wednesday Busy,Thursday Busy,Friday Busy,Saturday Busy,Sunday Busy
+Alice,12,mentor,09:00-10:15; 13:00-14:00,11:00-12:00,08:30-10:00,,,,
+Bob,10,new-hire,08:00-11:00,,13:00-15:00,10:00-11:30,,,
+Carol,15,,12:00-14:30,09:00-10:00,,14:00-16:00,,,
